@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/23bbeff789.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+
+    <div class="container">
+        <nav>
+            <img src="image/logo.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-texts">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Piyush</span> <br>Mishra from India</h1>
+        </div>
+    </div>
+</div>
+<!---------------------------- about section ------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/image_user3.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hii, I am Piyush Mishra, a final year Computer Science undergraduate with a Basic foundation
+                    in web development and a growing expertise in Java full stack development.
+                    Throughout my academic journey, I have acquired a diverse set of skills and knowledge
+                    that equips me to tackle various challenges in the tech industry.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links active-link" onclick="opentab('exprience')">Exprience</p> -->
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Intermediate</li>
+                            <li><span>JavaScript</span><br>Basic</li>
+                            <li><span>HTML</span><br>Intermediate</li>
+                            <li><span>CSS</span><br>Intermediate</li>
+                            <li><span>Database Management System</span><br>Intermediate</li>
+                            <li><span>DataStructure</span><br>Intermediate</li>
+                            <li><span>SQl</span><br>Basic</li>
+                            <li><span>Linux</span><br>Basic</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>Bachor's of Technology | computer Science and engineering<br>Asansol Engineering College | GPA-9.07</li>
+                            <li><span>2017-2019</span><br>CBSE | CLASS XII <br>Sree Ayyappa Public School | Percentage-70.80%</li>
+                            <li><span>2016-2017</span><br>CBSE | CLASS X <br>D.A.V Public School | CGPA-8.8</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------- services ------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>web Development</h2>
+                    <p>Developed 10+ hands-on projects and gaining knowledge day by day .</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-tablet-screen-button"></i>
+                    <h2>Software Engineering</h2>
+                    <p>I have intermediate knowledge about the subjects software Engineering and can work in that also</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming Skills</h2>
+                    <p>Proficiency with programming languages such as C, Java, and JavaScript.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+    </div>
+</div>
+<!----------------------------portfolio------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Visual sort</h3>
+                    <p>Created a web application using HTML, CSS, and JavaScript to visualize how various sorting algorithms work.
+                        <br>It secure storage system where users can save their passwords and associated usernames; this information is
+                        encrypted and protected to ensure user data privacy and security.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Secure-Pass(Password Manager)</h3>
+                    <p>Developed a web-based Password Manager App using JavaScript, CSS and HTML.
+                    <br>The app should provide a secure storage system where users can save their passwords and associated usernames
+                        this information should be encrypted and protected to ensure user data privacy and security.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png" alt="">
+                <div class="layer">
+                    <h3>ArithmoMate</h3>
+                    <p>Implemented a responsive calculator using JavaScript for basic arithmetic calculations.
+                        Utilized HTML and CSS to create a user interface with an input box and buttons for digits, operators, and
+                        control functions.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------------------contact------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mishra.piyush1886@gmail.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i>aec.cse.piyush081@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91 7061585212</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/piyush-mishra081/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Piyush096"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/PiyushM10672614"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="image/piyush_kumar1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form class="submit-to-google-sheet">
+                    <input class="name" type="text" name="Name" placeholder="Your Name" required>
+                    <input class="email" type="text" name="Email" placeholder="Your Email" required>
+                    <textarea class="textarea" name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Piyush Mishra. All rights reserved.</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tab){
+        for(i=0; i<tablinks.length; i++){
+            tablinks[i].classList.remove('active-link');
+        }
+        for(i=0; i<tabcontents.length; i++){
+            tabcontents[i].classList.remove('active-tab');
+        }
+        document.getElementById(tab).classList.add('active-tab');
+        event.currentTarget.classList.add('active-link');
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    // var header = document.getElementById('header');
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+        // header.style.right = '200px';
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+        // header.style.right = '0';
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxAEFWfMJsvpMmqGA5j_T07UtS7Fj4CHWLdhHpdnD5w4DjVOVzyJ81Nc6qAXQTvgDaiOA/exec'
+    const form = document.querySelector('.submit-to-google-sheet')
+    const msg = document.getElementById('msg')
+    const name = document.querySelector('.name')
+    const email = document.querySelector('.email')
+    const textarea = document.querySelector('.text-area')
+
+
+    form.addEventListener('submit', e => {
+        console.log(name.value, email.value, textarea.value);
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST',
+                        headers:{'Content-Type': 'application/json'} ,
+                        body: JSON.stringify({ name: name.value, email: email.value, message: textarea.value })})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(() => {
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
