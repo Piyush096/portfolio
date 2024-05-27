@@ -27,5 +27,5 @@ Build a React website in 24 hours to showcase the following:
 ![Imgur](https://github.com/Piyush096/portfolio/blob/main/image/Screenshot%20from%202024-05-28%2001-15-34.png)
 ![Imgur](https://github.com/Piyush096/portfolio/blob/main/image/Screenshot%20from%202024-05-28%2001-15-59.png)
 
-## ink to My Portfolio:-
+## Link to My Portfolio:-
 https://piyush096.github.io/portfolio/
